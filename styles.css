@@ -437,6 +437,247 @@ margin:0}
 margin:3px 0 0}
 .ebook-security{font-size:12px;
 margin:13px 0 0!important}
+.collection{background:#fffaf6}
+.collection-intro{max-width:810px;
+margin:0 auto;
+text-align:center}
+.collection-intro h2{font-size:clamp(42px,4.1vw,64px);
+margin-bottom:19px}
+.collection-intro>p:not(.section-label){font-size:18px;
+max-width:700px;
+margin:0 auto}
+.made-to-order{display:flex;
+align-items:flex-start;
+gap:16px;
+max-width:690px;
+margin:38px auto 0;
+padding:15px 0;
+border-top:1px solid rgba(188,145,81,.62);
+border-bottom:1px solid rgba(188,145,81,.62);
+text-align:left;
+font-size:13px}
+.made-to-order strong{color:var(--ink);
+font-size:10px;
+letter-spacing:.15em;
+white-space:nowrap}
+.collection-manifesto{max-width:760px;
+margin:clamp(75px,10vw,145px) auto;
+padding-left:clamp(24px,4vw,58px);
+border-left:1px solid var(--gold)}
+.collection-manifesto p:not(.section-label){max-width:630px;
+margin:0 0 15px}
+.collection-divider{display:flex;
+align-items:center;
+gap:22px;
+margin:clamp(85px,11vw,160px) 0 clamp(36px,5vw,70px)}
+.collection-divider:before,.collection-divider:after{content:'';
+height:1px;
+background:var(--line);
+flex:1}
+.collection-divider span{font:600 clamp(29px,3.2vw,48px)/1 var(--serif);
+letter-spacing:.08em;
+color:var(--ink)}
+.lookbook-item{display:flex;
+align-items:center;
+gap:clamp(44px,9vw,148px);
+max-width:1180px;
+margin:0 auto clamp(80px,11vw,170px)}
+.lookbook-item.reverse{flex-direction:row-reverse}
+.lookbook-image{width:min(54%,590px);
+aspect-ratio:715/1000;
+margin:0;
+display:flex;
+align-items:center;
+justify-content:center;
+background:var(--lilac);
+position:relative;
+overflow:hidden}
+.lookbook-image:after{content:'';
+position:absolute;
+inset:14px;
+border:1px solid rgba(188,145,81,.38);
+pointer-events:none}
+.lookbook-image img{display:block;
+width:100%;
+height:100%;
+object-fit:contain;
+position:relative;
+z-index:1}
+.lookbook-copy{position:relative;
+width:min(40%,390px);
+padding-top:18px}
+.lookbook-number{display:block;
+font:normal clamp(56px,7vw,105px)/.7 var(--serif);
+letter-spacing:-.06em;
+color:rgba(49,18,46,.12);
+margin:0 0 -12px -5px}
+.lookbook-copy h3{font:normal clamp(31px,2.6vw,43px)/1.05 var(--serif);
+color:var(--ink);
+margin:0 0 18px}
+.lookbook-copy>p:not(.section-label){max-width:350px;
+margin:0 0 25px}
+.lookbook-copy a{display:inline-flex;
+align-items:center;
+gap:8px;
+color:var(--plum);
+font-size:13px;
+font-weight:700;
+border-bottom:1px solid var(--gold);
+padding-bottom:6px;
+transition:color .2s ease,border-color .2s ease}
+.lookbook-copy a:hover{color:var(--gold);
+border-color:var(--plum)}
+.collection-steps{display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:clamp(24px,5vw,70px);
+max-width:1050px;
+margin:0 auto;
+padding:clamp(48px,7vw,85px) 0;
+border-top:1px solid var(--line);
+border-bottom:1px solid var(--line)}
+.collection-steps>div{position:relative;
+padding-top:27px}
+.collection-steps span,.collection-steps>div:first-child:before{position:absolute;
+top:0;
+left:0;
+font:600 12px var(--serif);
+color:var(--gold)}
+.collection-steps>div:first-child:before{content:'01'}
+.collection-steps h3{font:500 22px/1.15 var(--serif);
+color:var(--ink);
+margin:0 0 11px}
+.collection-steps p:not(.section-label){font-size:13px;
+margin:0}
+.collection-steps .section-label{margin:0 0 11px}
+.collection-cta{max-width:670px;
+margin:clamp(70px,9vw,125px) auto 0;
+text-align:center}
+.collection-cta h3{font:normal clamp(35px,3.3vw,52px)/1.05 var(--serif);
+color:var(--ink);
+margin:0 0 17px}
+.collection-cta p{max-width:480px;
+margin:0 auto 25px}
+.lookbook-toolbar{display:flex;
+align-items:center;
+justify-content:space-between;
+gap:25px;
+max-width:1100px;
+margin:clamp(58px,7vw,90px) auto 25px;
+padding-bottom:14px;
+border-bottom:1px solid var(--line)}
+.lookbook-tabs{display:flex;
+gap:20px}
+.lookbook-tabs button{appearance:none;
+background:transparent;
+border:0;
+padding:0 0 6px;
+color:var(--body);
+font:600 13px var(--sans);
+cursor:pointer;
+border-bottom:1px solid transparent;
+transition:color .2s ease,border-color .2s ease}
+.lookbook-tabs button[aria-selected="true"]{color:var(--ink);
+border-color:var(--gold)}
+.lookbook-navigation{display:flex;
+align-items:center;
+gap:14px;
+font-size:12px;
+letter-spacing:.12em;
+color:var(--ink)}
+.lookbook-arrow{width:31px;
+height:31px;
+display:grid;
+place-items:center;
+border:1px solid rgba(188,145,81,.65);
+border-radius:50%;
+background:transparent;
+color:var(--plum);
+font-size:18px;
+cursor:pointer;
+transition:background .2s ease,color .2s ease}
+.lookbook-arrow:hover{background:var(--plum);
+color:#fff}
+.lookbook-window{max-width:1100px;
+height:580px;
+margin:0 auto;
+overflow:hidden}
+.lookbook-track{height:100%;
+display:flex;
+gap:22px;
+overflow-x:auto;
+overflow-y:visible;
+scroll-snap-type:x mandatory;
+scroll-behavior:smooth;
+scrollbar-width:none;
+padding:0 calc((100% - min(44vw,460px))/2);
+cursor:grab;
+user-select:none}
+.lookbook-track::-webkit-scrollbar{display:none}
+.lookbook-track.is-dragging{cursor:grabbing;
+scroll-snap-type:none}
+.lookbook-product{position:relative;
+flex:0 0 min(44vw,460px);
+height:540px;
+scroll-snap-align:center;
+padding-bottom:92px;
+opacity:.58;
+transform:scale(.92);
+transition:opacity .3s ease,transform .3s ease;
+cursor:pointer}
+.lookbook-product.is-hidden{display:none}
+.lookbook-product.is-active{opacity:1;
+transform:scale(1)}
+.lookbook-product figure{height:420px;
+margin:0;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow:hidden;
+background:var(--lilac);
+border:1px solid rgba(188,145,81,.25)}
+.lookbook-product figure img{width:100%;
+height:100%;
+display:block;
+object-fit:contain;
+object-position:center}
+.lookbook-product-copy{position:absolute;
+z-index:1;
+left:24px;
+right:24px;
+bottom:0;
+padding:17px 20px;
+background:rgba(255,250,246,.96);
+border-left:2px solid var(--gold)}
+.lookbook-product-copy .section-label{font-size:9px;
+margin:0 0 6px}
+.lookbook-product-copy h3{font:normal 25px/1 var(--serif);
+color:var(--ink);
+margin:0}
+.lookbook-product-copy>p:not(.section-label),.lookbook-product-copy a{display:none}
+.lookbook-product.is-active .lookbook-product-copy{left:15px;
+right:15px;
+padding:20px 24px;
+background:var(--ink);
+color:#fff}
+.lookbook-product.is-active .lookbook-product-copy .section-label{color:#e6c98c}
+.lookbook-product.is-active .lookbook-product-copy h3{color:#fff;
+font-size:28px}
+.lookbook-product.is-active .lookbook-product-copy>p:not(.section-label){display:block;
+font-size:13px;
+line-height:1.45;
+margin:10px 0 14px}
+.lookbook-product.is-active .lookbook-product-copy a{display:inline-flex;
+align-items:center;
+gap:7px;
+color:#fff;
+font-size:12px;
+font-weight:700;
+border-bottom:1px solid var(--gold);
+padding-bottom:5px}
+.collection-steps{margin-top:clamp(65px,9vw,105px);
+padding:38px 0}
+.collection-steps h3{font-size:19px}
+.collection-steps p:not(.section-label){font-size:12px}
 .formation{display:block;
 background:linear-gradient(100deg,#fffaf6 50%,#faf5f2)}
 .formation-copy{max-width:920px;
@@ -627,6 +868,52 @@ flex-direction:column}
 width:100%;
 max-width:460px;
 margin:0 0 42px}
+.collection-intro{text-align:left}
+.collection-intro h2{font-size:clamp(38px,10vw,52px)}
+.collection-intro>p:not(.section-label){margin-left:0}
+.made-to-order{flex-direction:column;
+gap:8px}
+.lookbook-toolbar{margin:60px 0 20px;
+align-items:flex-end}
+.lookbook-tabs{gap:14px}
+.lookbook-tabs button{font-size:12px}
+.lookbook-navigation{gap:9px;
+font-size:11px}
+.lookbook-window{height:535px;
+margin-right:-25px}
+.lookbook-track{gap:13px;
+padding:0 28px 0 0}
+.lookbook-product{flex-basis:calc(100% - 40px);
+height:510px;
+padding-bottom:108px;
+transform:scale(.94)}
+.lookbook-product figure{height:380px}
+.lookbook-product-copy{left:14px;
+right:14px;
+padding:15px 17px}
+.lookbook-product.is-active .lookbook-product-copy{left:9px;
+right:9px;
+padding:17px 19px}
+.lookbook-product.is-active .lookbook-product-copy h3{font-size:25px}
+.lookbook-product.is-active .lookbook-product-copy>p:not(.section-label){font-size:12px}
+.collection-manifesto{margin:78px 0;
+padding-left:23px}
+.collection-divider{margin:90px 0 38px}
+.collection-divider span{font-size:31px}
+.lookbook-item,.lookbook-item.reverse{flex-direction:column;
+align-items:flex-start;
+gap:28px;
+margin-bottom:90px}
+.lookbook-image{width:100%;
+max-width:520px}
+.lookbook-copy{width:100%;
+max-width:450px}
+.collection-steps{grid-template-columns:1fr;
+gap:30px;
+padding:50px 0}
+.collection-cta{text-align:left;
+margin-top:80px}
+.collection-cta p{margin-left:0}
 .formation-body{grid-template-columns:1fr;
 gap:17px}
 .balance-copy{margin-bottom:45px}
